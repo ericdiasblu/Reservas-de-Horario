@@ -1,0 +1,108 @@
+.button {
+    -fx-background-color: #284B63;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8px;
+    -fx-border-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: #4f728a;
+}
+
+/* application.css */
+
+/* Estilo do botão */
+.horario-button {
+    -fx-background-color: #3C6E71; /* Cor de fundo */
+    -fx-text-fill: #FFFFFF; /* Cor do texto */
+    -fx-font-size: 16px; /* Tamanho da fonte */
+    -fx-padding: 10px 20px; /* Espaçamento interno */
+    -fx-border-radius: 5; /* Bordas arredondadas */
+    -fx-background-radius: 5; /* Bordas arredondadas no fundo */
+    -fx-border-color: #D9D9D9; /* Cor da borda */
+    -fx-border-width: 1; /* Largura da borda */
+}
+
+/* Efeito de hover */
+.horario-button:hover {
+    -fx-background-color: #284B63; /* Cor do fundo ao passar o mouse */
+    -fx-border-color: #FFFFFF; /* Cor da borda ao passar o mouse */
+}
+
+.relatorio-button {
+    -fx-background-color: white; /* Cor de fundo */
+    -fx-text-fill: #FFFFFF; /* Cor do texto */
+    -fx-padding: 5px 8px; /* Espaçamento interno */
+    -fx-border-radius: 3; /* Bordas arredondadas */
+    -fx-background-radius: 2; /* Bordas arredondadas no fundo */
+    -fx-border-color: #D9D9D9; /* Cor da borda */
+    -fx-border-width: 0.5; /* Largura da borda */
+}
+
+/* Efeito de hover */
+.relatorio-button:hover {
+    -fx-background-color: #F0F0F0; /* Cor do fundo ao passar o mouse */
+    -fx-border-color: #FFFFFF; /* Cor da borda ao passar o mouse */
+}
+
+
+.text-field {
+    -fx-background-color: #D9D9D9;
+    -fx-border-color: #284B63;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-alignment: center; /* Centraliza o texto no campo */
+}
+
+.text-field:focused {
+    -fx-border-color: #3C6E71;
+}
+
+.sidebar {
+    -fx-background-color: #284B63;
+}
+
+.sidebar-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #FFFFFF;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: #3C6E71;
+}
+
+/* application.css */
+
+/* Estilo do pane com borda sombreada 3D */
+.borda-sombreada {
+    -fx-background-color: #FFFFFF; /* Cor de fundo do pane */
+    -fx-border-color: #D9D9D9; /* Cor da borda */
+    -fx-border-width: 2; /* Largura da borda */
+    -fx-border-radius: 5; /* Bordas arredondadas */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 5, 5); /* Efeito de sombra */
+}
+
+
+/* Estilo do TextField com borda e sombra */
+.text-field-sombreado {
+    -fx-background-color: #FFFFFF; /* Cor de fundo do TextField */
+    -fx-text-fill: #353535; /* Cor do texto */
+    -fx-font-size: 14px; /* Tamanho da fonte */
+    -fx-padding: 8px; /* Espaçamento interno */
+    -fx-border-color: #D9D9D9; /* Cor da borda */
+    -fx-border-width: 2; /* Largura da borda */
+    -fx-border-radius: 5; /* Bordas arredondadas */
+    -fx-background-radius: 5; /* Para garantir bordas arredondadas */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 5, 5); /* Sombra 3D */
+    -fx-alignment: center; /* Centraliza o texto no campo */
+
+}
+
+/* Efeito quando o TextField é focado */
+.text-field-sombreado:focused {
+    -fx-border-color: #3C6E71; /* Cor da borda ao focar */
+    -fx-effect: dropshadow(gaussian, rgba(60, 110, 113, 0.6), 15, 0, 5, 5); /* Sombra mais intensa ao focar */
+}
+
