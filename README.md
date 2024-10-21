@@ -13,6 +13,6 @@ Este é um sistema de reservas de horário desenvolvido em Java, utilizando Java
 
 - **Java**: É necessário ter o JDK 11 ou superior instalado. ☕
 - **IDE**: Qualquer IDE de Java, como:
-  - IntelliJ IDEA 💻
+  - IntelliJ IDEA 💻 (IDE utilizada)
   - Eclipse 🌑
 - **Scene Builder**: Para edição de interfaces gráficas em JavaFX. 🎨
